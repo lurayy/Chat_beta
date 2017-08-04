@@ -1,0 +1,79 @@
+﻿  stdafx.cpp
+  Client.cpp
+d:\study\3rd sem\c++\new folder (2)\callin\callin\client.cpp(58): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1850): note: see declaration of 'inet_addr'
+d:\study\3rd sem\c++\new folder (2)\callin\callin\client.cpp(60): warning C4996: 'gethostbyaddr': Use getnameinfo() or GetNameInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(2216): note: see declaration of 'gethostbyaddr'
+d:\study\3rd sem\c++\new folder (2)\callin\callin\client.cpp(105): error C2065: 'client': undeclared identifier
+d:\study\3rd sem\c++\new folder (2)\callin\callin\client.cpp(105): error C2228: left of '.recv_message' must have class/struct/union
+  d:\study\3rd sem\c++\new folder (2)\callin\callin\client.cpp(105): note: type is 'unknown-type'
+d:\study\3rd sem\c++\new folder (2)\callin\callin\client.cpp(131): error C2065: 'client': undeclared identifier
+d:\study\3rd sem\c++\new folder (2)\callin\callin\client.cpp(131): error C2228: left of '.initialise' must have class/struct/union
+  d:\study\3rd sem\c++\new folder (2)\callin\callin\client.cpp(131): note: type is 'unknown-type'
+d:\study\3rd sem\c++\new folder (2)\callin\callin\client.cpp(132): error C2065: 'client': undeclared identifier
+d:\study\3rd sem\c++\new folder (2)\callin\callin\client.cpp(132): error C2228: left of '.connection_status' must have class/struct/union
+  d:\study\3rd sem\c++\new folder (2)\callin\callin\client.cpp(132): note: type is 'unknown-type'
+d:\study\3rd sem\c++\new folder (2)\callin\callin\client.cpp(145): error C2065: 'client': undeclared identifier
+d:\study\3rd sem\c++\new folder (2)\callin\callin\client.cpp(145): error C2228: left of '.send_message' must have class/struct/union
+  d:\study\3rd sem\c++\new folder (2)\callin\callin\client.cpp(145): note: type is 'unknown-type'
+  Server.cpp
+d:\study\3rd sem\c++\new folder (2)\callin\callin\server.h(18): error C2011: 'chatserver': 'class' type redefinition
+  d:\study\3rd sem\c++\new folder (2)\callin\callin\server.cpp(17): note: see declaration of 'chatserver'
+d:\study\3rd sem\c++\new folder (2)\callin\callin\server.cpp(40): error C2079: 'server' uses undefined class 'chatserver'
+d:\study\3rd sem\c++\new folder (2)\callin\callin\server.cpp(42): error C2027: use of undefined type 'chatserver'
+  d:\study\3rd sem\c++\new folder (2)\callin\callin\server.cpp(17): note: see declaration of 'chatserver'
+d:\study\3rd sem\c++\new folder (2)\callin\callin\server.cpp(42): error C2059: syntax error: ')'
+d:\study\3rd sem\c++\new folder (2)\callin\callin\server.cpp(43): error C2143: syntax error: missing ';' before '{'
+d:\study\3rd sem\c++\new folder (2)\callin\callin\server.cpp(43): error C2447: '{': missing function header (old-style formal list?)
+d:\study\3rd sem\c++\new folder (2)\callin\callin\server.cpp(71): error C2027: use of undefined type 'chatserver'
+  d:\study\3rd sem\c++\new folder (2)\callin\callin\server.cpp(17): note: see declaration of 'chatserver'
+d:\study\3rd sem\c++\new folder (2)\callin\callin\server.cpp(71): error C2059: syntax error: ')'
+d:\study\3rd sem\c++\new folder (2)\callin\callin\server.cpp(72): error C2143: syntax error: missing ';' before '{'
+d:\study\3rd sem\c++\new folder (2)\callin\callin\server.cpp(72): error C2447: '{': missing function header (old-style formal list?)
+d:\study\3rd sem\c++\new folder (2)\callin\callin\server.cpp(77): error C2027: use of undefined type 'chatserver'
+  d:\study\3rd sem\c++\new folder (2)\callin\callin\server.cpp(17): note: see declaration of 'chatserver'
+d:\study\3rd sem\c++\new folder (2)\callin\callin\server.cpp(79): error C2065: 'ready': undeclared identifier
+d:\study\3rd sem\c++\new folder (2)\callin\callin\server.cpp(85): error C2027: use of undefined type 'chatserver'
+  d:\study\3rd sem\c++\new folder (2)\callin\callin\server.cpp(17): note: see declaration of 'chatserver'
+d:\study\3rd sem\c++\new folder (2)\callin\callin\server.cpp(90): error C2065: 'client': undeclared identifier
+d:\study\3rd sem\c++\new folder (2)\callin\callin\server.cpp(90): error C2065: 'listen_client': undeclared identifier
+d:\study\3rd sem\c++\new folder (2)\callin\callin\server.cpp(91): error C2065: 'client': undeclared identifier
+d:\study\3rd sem\c++\new folder (2)\callin\callin\server.cpp(93): error C2065: 'client_list': undeclared identifier
+d:\study\3rd sem\c++\new folder (2)\callin\callin\server.cpp(93): error C2228: left of '.push_back' must have class/struct/union
+  d:\study\3rd sem\c++\new folder (2)\callin\callin\server.cpp(93): note: type is 'unknown-type'
+d:\study\3rd sem\c++\new folder (2)\callin\callin\server.cpp(93): error C2065: 'client': undeclared identifier
+d:\study\3rd sem\c++\new folder (2)\callin\callin\server.cpp(95): error C2065: 'client': undeclared identifier
+d:\study\3rd sem\c++\new folder (2)\callin\callin\server.cpp(99): error C2027: use of undefined type 'chatserver'
+  d:\study\3rd sem\c++\new folder (2)\callin\callin\server.cpp(17): note: see declaration of 'chatserver'
+d:\study\3rd sem\c++\new folder (2)\callin\callin\server.cpp(104): error C2065: 'client_list': undeclared identifier
+d:\study\3rd sem\c++\new folder (2)\callin\callin\server.cpp(104): error C2228: left of '.size' must have class/struct/union
+  d:\study\3rd sem\c++\new folder (2)\callin\callin\server.cpp(104): note: type is 'unknown-type'
+d:\study\3rd sem\c++\new folder (2)\callin\callin\server.cpp(106): error C2065: 'client_list': undeclared identifier
+d:\study\3rd sem\c++\new folder (2)\callin\callin\server.cpp(106): error C2228: left of '.begin' must have class/struct/union
+  d:\study\3rd sem\c++\new folder (2)\callin\callin\server.cpp(106): note: type is 'unknown-type'
+d:\study\3rd sem\c++\new folder (2)\callin\callin\server.cpp(106): error C2228: left of '.end' must have class/struct/union
+  d:\study\3rd sem\c++\new folder (2)\callin\callin\server.cpp(106): note: type is 'unknown-type'
+d:\study\3rd sem\c++\new folder (2)\callin\callin\server.cpp(110): error C2065: 'client_list': undeclared identifier
+d:\study\3rd sem\c++\new folder (2)\callin\callin\server.cpp(110): error C2228: left of '.remove' must have class/struct/union
+  d:\study\3rd sem\c++\new folder (2)\callin\callin\server.cpp(110): note: type is 'unknown-type'
+d:\study\3rd sem\c++\new folder (2)\callin\callin\server.cpp(109): warning C4390: ';': empty controlled statement found; is this the intent?
+d:\study\3rd sem\c++\new folder (2)\callin\callin\server.cpp(117): error C2027: use of undefined type 'chatserver'
+  d:\study\3rd sem\c++\new folder (2)\callin\callin\server.cpp(17): note: see declaration of 'chatserver'
+d:\study\3rd sem\c++\new folder (2)\callin\callin\server.cpp(124): error C2065: 'client_list': undeclared identifier
+d:\study\3rd sem\c++\new folder (2)\callin\callin\server.cpp(124): error C2228: left of '.remove' must have class/struct/union
+  d:\study\3rd sem\c++\new folder (2)\callin\callin\server.cpp(124): note: type is 'unknown-type'
+d:\study\3rd sem\c++\new folder (2)\callin\callin\server.cpp(143): error C2228: left of '.recv_message' must have class/struct/union
+  d:\study\3rd sem\c++\new folder (2)\callin\callin\server.cpp(143): note: type is 'int'
+d:\study\3rd sem\c++\new folder (2)\callin\callin\server.cpp(153): error C2228: left of '.start_listening' must have class/struct/union
+  d:\study\3rd sem\c++\new folder (2)\callin\callin\server.cpp(153): note: type is 'int'
+d:\study\3rd sem\c++\new folder (2)\callin\callin\server.cpp(166): error C2228: left of '.check_connection' must have class/struct/union
+  d:\study\3rd sem\c++\new folder (2)\callin\callin\server.cpp(166): note: type is 'int'
+d:\study\3rd sem\c++\new folder (2)\callin\callin\server.cpp(180): error C2228: left of '.send_message' must have class/struct/union
+  d:\study\3rd sem\c++\new folder (2)\callin\callin\server.cpp(180): note: type is 'int'
+  Callin.cpp
+d:\study\3rd sem\c++\new folder (2)\callin\callin\callin.cpp(2): warning C4627: '#include "Callin.h"': skipped when looking for precompiled header use
+  d:\study\3rd sem\c++\new folder (2)\callin\callin\callin.cpp(2): note: Add directive to 'stdafx.h' or rebuild precompiled header
+d:\study\3rd sem\c++\new folder (2)\callin\callin\callin.cpp(21): error C3861: 'servermain': identifier not found
+d:\study\3rd sem\c++\new folder (2)\callin\callin\callin.cpp(25): error C3861: 'clientmain': identifier not found
+d:\study\3rd sem\c++\new folder (2)\callin\callin\callin.cpp(32): error C3861: 'getch': identifier not found
+  Generating Code...
